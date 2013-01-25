@@ -1,0 +1,19 @@
+[user]
+	name = ChivalrousDig
+	email = ChivalrousDig@gmail.com
+[color]
+diff = auto
+status = auto
+branch = auto
+interactive = true
+	ui = true
+[alias]
+co = checkout
+ci = commit
+st = status
+br = branch
+hist = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+type = cat-file -t
+dump = cat-file -p
+[core]
+autocrlf = false
